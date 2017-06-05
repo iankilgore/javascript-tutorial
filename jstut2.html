@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
      <meta charset="utf-8">
-     <script src="jstut.js"></script>
+
 
      <style type="text/css">
        body {font-size: 1.6em;}
@@ -18,20 +18,13 @@
 
     </head>
     <body>
+    <script>
 
-      <p id="sayHello"></p>
+    document.write("5 + 4 = ", 5 + 4, "<br />");
 
-      <script>
+    document.write("5 + 4 = " + 5 + 4, "<br />");
 
-      var yourName = prompt("What is your name?")
+    </script>
 
-      if (yourName != null){
-        document.getElementById("sayHello").innerHTML = "Hello " + yourName;
-      } else {
-        alert("Please enter a name next time");
-      }
-
-      </script>
-
-    </body>
+  </body>
 </html>
